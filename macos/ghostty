@@ -1,0 +1,27 @@
+# Set TERM environment variable
+term = xterm-256color
+
+# Automatically switch between macOS light and dark mode
+theme = light:Apple System Colors Light,dark:Apple System Colors
+
+# Font
+font-family = IBM Plex Mono
+font-size = 13
+
+# macOS integration
+window-theme = auto
+macos-titlebar-style = transparent
+
+# Transparency and strong background blur
+background-opacity = 0.80
+background-blur-radius = 80
+
+# Add some window padding
+window-padding-x = 8
+window-padding-y = 6
+
+# Shell integration
+shell-integration = detect
+
+# Preserve window state between sessions
+window-save-state = always
